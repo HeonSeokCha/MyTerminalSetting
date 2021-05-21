@@ -1,0 +1,9 @@
+" Reload
+nnoremap <leader>re :source ~/.ideavimrc<cr> 
+
+" Build & Run
+nnoremap <leader>rr :action Run<cr>
+nnoremap <leader>cg :action CleanGradleProject<cr>
+nnoremap <leader>sp :action Android.SyncProject<cr>
+nnoremap <leader>rb :action RebuildGradleProject<cr>
+nnoremap <leader>mp :action MakeGradleProject<cr>
